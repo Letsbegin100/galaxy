@@ -1,0 +1,17 @@
+@keyframes r{
+	0% {left: 100px; transform: rotate(80deg);}
+	25% {left: 250px;}
+	70% {left: 1000px;}
+}
+@keyframes r2{
+	0% {left: 100px;}
+	25% {left: 250px;}
+	50% {left: 500px;}
+	70% {left: 1000px;}
+}
+@keyframes r3{
+	0%{transform: rotate(-45deg);}
+	35% {transform: rotate(-90deg);}
+	70% {transform: rotate(-180deg);}
+	100% {transform: rotate(-360deg);}
+}

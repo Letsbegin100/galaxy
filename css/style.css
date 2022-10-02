@@ -1,0 +1,59 @@
+.galaxy{
+	width: 100%;
+	height: 700px;
+}
+.wrapper-box{
+	position: relative;
+}
+
+.racketa{
+	position: absolute;
+	top: 200px;
+	left: 50px;
+	animation: r 2s 3;
+}
+.racketa2{
+	position: absolute;
+	height: 180px;
+	top: 80px;
+	left: 100px;
+	animation: r2 2.5s infinite;
+}
+.racketa3{
+	position: absolute;
+	height: 92px;
+	right: 300px;
+	top: 80px;
+}
+.racketa3:hover{
+	height: 180px;
+}
+.racketa4{
+	position: absolute;
+	height: 180px;
+	bottom: 100px;
+	right: 200px;
+	animation: r3 5s infinite;
+}
+.moon{
+	position: absolute;
+	height: 220px;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.moon:hover{
+	height: 320px;
+}
+.p{
+	position: absolute;
+    color: #FFF8DC;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+}
+.p:hover{
+	font-size: 50px;
+    text-radius: 2px 5px blue;
+}
